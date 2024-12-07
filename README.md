@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     order.print_receipt()
 ```
-## Output (with discount)
+### Output (with discount)
 Al tener mas de 5 productos, se aplica un descuento del 10%
 ```bash
 Order Receipt:
@@ -161,7 +161,7 @@ Subtotal: $57.00
 Discounted Total: $5.70
 Total: $ 51.30
 ```
-## Output (without discount)
+### Output (without discount)
 Al no tener mas de 5 productos el descuento no se aplica
 ```bash
 Order Receipt:
