@@ -1,4 +1,4 @@
-# reto_3
+# Reto_3
 1. Restaurant scenario: You want to design a program to calculate the bill for a customer's order in a restaurant.
 + Define a base class MenuItem: This class should have attributes like name, price, and a method to calculate the total price.
 + Create subclasses for different types of menu items: Inherit from MenuItem and define properties specific to each type (e.g., Beverage, Appetizer, MainCourse).
