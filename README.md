@@ -47,7 +47,7 @@ classDiagram
     MenuItem <|-- Beverage
     MenuItem <|-- Appetizer
     MenuItem <|-- MainCourse
-    Order *-- MenuItem : cotiene
+    Order *-- MenuItem : contiene
 
 ```
 ## Pyhton Code
