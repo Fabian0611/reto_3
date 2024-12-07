@@ -131,10 +131,14 @@ if __name__ == "__main__":
     order = Order()
     order.add_item(Beverage("Coke", 2.0, "small"))
     order.add_item(Beverage("Tamarindo", 3.0, "medium"))
+    order.add_item(Beverage("Jamaica", 2.5, "Large"))
     order.add_item(Appetizer("Tacos de al pastor", 3.0, True))
     order.add_item(Appetizer("Flauta", 6.5, False))
+    order.add_item(Appetizer("Tamal", 3.5, False))
+    order.add_item(Appetizer("Elote", 4.5, False))
     order.add_item(MainCourse("Veggie Burrito", 8.0, True))
-    order.add_item(MainCourse("enchilada", 12.0, True))
+    order.add_item(MainCourse("Enchilada", 12.0, True))
+    order.add_item(MainCourse("Tomato Soup", 12.0, True))
 
     order.print_receipt()
 ```
@@ -144,14 +148,18 @@ Al tener mas de 5 productos, se aplica un descuento del 10%
 Order Receipt:
 - Coke (small): $2.00
 - Tamarindo (medium): $3.00
+- Jamaica (Large): $2.50
 - Tacos de al pastor (Spicy): $3.00
 - Flauta (Non-Spicy): $6.50
+- Tamal (Non-Spicy): $3.50
+- Elote (Non-Spicy): $4.50
 - Veggie Burrito (Vegetarian): $8.00
-- enchilada (Vegetarian): $12.00
+- Enchilada (Vegetarian): $12.00
+- Tomato Soup (Vegetarian): $12.00
 
-Subtotal: $34.50
-Discounted Total: $3.45
-Total: $ 31.05
+Subtotal: $57.00
+Discounted Total: $5.70
+Total: $ 51.30
 ```
 ## Output (without discount)
 Al no tener mas de 5 productos el descuento no se aplica
