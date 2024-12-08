@@ -187,7 +187,7 @@ Total: $ 25.00
 
 ## Python Code2
 Se añade la clase **Line** al ejercicio anteriormente hecho de **Rectangule**
-```pyhton
+```python
 import math
 
 class Point:
