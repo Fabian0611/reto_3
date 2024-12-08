@@ -3,7 +3,7 @@
 - [Restaurant](#restaurant)
   - [Class Diagram](#class-diagram)
   - [Python Code](#python-code)
-  - [Output](#output-(with-discount))
+  - [Output](#output-with-discount)
 - [Line](#line)
   - [Python Code](#python-code2)
   - [Output](#output)
@@ -59,7 +59,7 @@ classDiagram
     Order *-- MenuItem : contiene
 
 ```
-### Pyhton Code
+### Python Code
 
 ```python
 class MenuItem:
