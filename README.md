@@ -1,12 +1,12 @@
 # Reto_3
 ## Tabla de contenidos
 - [Restaurant](#restaurant)
-  - [Class Diagram](##class-diagram)
-  - [Class Diagram](##python-code)
-  - [Class Diagram](##output-(with-discount))
+  - [Class Diagram](#class-diagram)
+  - [Python Code](#python-code)
+  - [Output](#output-(with-discount))
 - [Line](#line)
-  - [Python Code](##python-code2)
-  - [Output](##output)
+  - [Python Code](#python-code2)
+  - [Output](#output)
 ## Restaurant
 1. Restaurant scenario: You want to design a program to calculate the bill for a customer's order in a restaurant.
 + Define a base class MenuItem: This class should have attributes like name, price, and a method to calculate the total price.
