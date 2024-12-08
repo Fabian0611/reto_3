@@ -4,10 +4,10 @@
   - [Class Diagram](#class-diagram)
   - [Python Code](#python-code)
   - [Output](#output-with-discount)
-- [Line](#line)
+- [Line](#linerectangule)
   - [Python Code](#python-code2)
   - [Output](#output)
-## Restaurant
+# Restaurant
 1. Restaurant scenario: You want to design a program to calculate the bill for a customer's order in a restaurant.
 + Define a base class MenuItem: This class should have attributes like name, price, and a method to calculate the total price.
 + Create subclasses for different types of menu items: Inherit from MenuItem and define properties specific to each type (e.g., Beverage, Appetizer, MainCourse).
@@ -15,7 +15,7 @@
 
 Create a class diagram with all classes and their relationships. The menu should have at least 10 items. The code should follow PEP8 rules.
 
-### Class Diagram
+## Class Diagram
 La clase base o padre es Order, ya que esta compuesta por "objetos" de la clase MenuItem, a su vez MenuItem hereda los atributos de **name** y **price** a las subclases: Beverage, Appetizer y MainCourse 
 ```mermaid
 classDiagram
@@ -59,7 +59,7 @@ classDiagram
     Order *-- MenuItem : contiene
 
 ```
-### Python Code
+## Python Code
 
 ```python
 class MenuItem:
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
     order.print_receipt()
 ```
-### Output (with discount)
+## Output (with discount)
 Al tener mas de 5 productos, se aplica un descuento del 10%
 ```bash
 Order Receipt:
@@ -170,7 +170,7 @@ Subtotal: $57.00
 Discounted Total: $5.70
 Total: $ 51.30
 ```
-### Output (without discount)
+## Output (without discount)
 Al no tener mas de 5 productos el descuento no se aplica
 ```bash
 Order Receipt:
@@ -182,10 +182,10 @@ Order Receipt:
 Subtotal: $25.00
 Total: $ 25.00
 ```
-## Line/Rectangule
+# Line/Rectangule
 Redefine the class Rectangle, adding a new method of initialization using 4 Lines (composition at its best, a rectangle is compose of 4 lines).
 
-### Python Code2
+## Python Code2
 Se añade la clase **Line** al ejercicio anteriormente hecho de **Rectangule**
 ```pyhton
 import math
@@ -306,7 +306,7 @@ if __name__ == "__main__":
     print("Rectangle perimeter:", rect.compute_perimeter())
 
 ```
-### Output
+## Output
 ```bash
 Line length: 4.47213595499958
 Line slope: 63.43494882292201
