@@ -183,7 +183,7 @@ Subtotal: $25.00
 Total: $ 25.00
 ```
 # Line/Rectangule
-Redefine the class Rectangle, adding a new method of initialization using 4 Lines (composition at its best, a rectangle is compose of 4 lines).
+- Redefine the class Rectangle, adding a new method of initialization using 4 Lines (composition at its best, a rectangle is compose of 4 lines).
 
 ## Python Code2
 Se añade la clase **Line** al ejercicio anteriormente hecho de **Rectangule**
