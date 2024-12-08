@@ -1,5 +1,5 @@
 # Reto_3
-## Tabla de contenidos
+## Tabla de Contenido
 - [Restaurant](#restaurant)
   - [Class Diagram](#class-diagram)
   - [Python Code](#python-code)
